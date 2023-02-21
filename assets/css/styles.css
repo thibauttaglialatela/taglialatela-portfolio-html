@@ -159,3 +159,10 @@ padding: 1rem 6rem;
     padding: 0.4rem;
 }
 
+.skills {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
