@@ -7,8 +7,7 @@
     --bold-font: 700;
     --bolder-font: 800;
     --bg-nav-color: #E29128;
-    --bg-color: #524b4b;
-    --primary-color: #4b4747;
+    --primary-color: #524b4b;
     --secondary-color: #ececec;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
@@ -20,7 +19,7 @@
 
 html {
     scroll-behavior: smooth;
-    background-color: var(--bg-color);
+    background-color: var(--primary-color);
 }
 
 /* reset CSS */
@@ -97,4 +96,14 @@ nav ul {
 
 nav ul li {
     font-weight: var(--bold-font);
+}
+
+.burger-menu {
+color: var(--primary-color);
+font-size: 2rem;
+border: 0;
+background-color: var(--secondary-color);
+cursor: pointer;
+border-radius: 25%;
+display: none;
 }
