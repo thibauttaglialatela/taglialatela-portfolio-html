@@ -6,9 +6,10 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 800;
-    --bg-color: #fcfcfc;
-    --primary-color: #4756df;
-    --secondary-color: #ff7235;
+    --bg-nav-color: #E29128;
+    --bg-color: #524b4b;
+    --primary-color: #4b4747;
+    --secondary-color: #ececec;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
     --bottom-margin: 0.5rem;
@@ -19,12 +20,13 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--bg-color);
 }
 
 /* reset CSS */
 * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -32,28 +34,67 @@ ul {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: var(--primary-color);
+.button {
+    width: 8.75rem;
+    height: 3.125rem;
+    border-width: 1px;
+    border-color: #566963;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: #768d87;
+    padding: 0.5rem 0.5rem;
 }
 
-a:hover {
-    color: var(--secondary-color);
+.button:hover {
+    background: #6c7c7c;
 }
+
+a {
+    text-decoration: none;
+    color: #f3f3f9;
+}
+
 
 body {
     font-family: var(--font-family);
 }
 
 nav {
-    position:sticky;
+    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
-    background-color: var(--bg-color);
+    background-color: var(--bg-nav-color);
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: var(--primary-color);
+}
+
+nav a {
+    color: var(--secondary-color);
+    transition: var(--transition);
+}
+
+nav a:hover {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
 }
