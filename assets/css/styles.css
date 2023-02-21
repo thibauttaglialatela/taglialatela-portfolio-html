@@ -22,6 +22,10 @@ html {
     background-color: var(--primary-color);
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    color: var(--secondary-color);
+}
+
 /* reset CSS */
 * {
     margin: 0;
@@ -76,7 +80,7 @@ nav {
 }
 
 nav h1 {
-    color: var(--primary-color);
+    color: #060458;
 }
 
 nav a {
@@ -139,3 +143,19 @@ display: none;
     line-height: var(--line-height);
     padding: 0.3rem 0;
 }
+
+.more-about {
+    background-color: var(--primary-color);
+padding: 1rem 6rem;
+}
+
+.more-about h2 {
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.more-about p {
+    line-height: var(--line-height);
+    padding: 0.4rem;
+}
+
