@@ -10,7 +10,7 @@
     --primary-color: #524b4b;
     --secondary-color: #ececec;
     --primary-shadow: #e69f08;
-    --secondary-shadow: #a17a69;
+    --secondary-shadow: #ffce00;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -22,7 +22,13 @@ html {
     background-color: var(--primary-color);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     color: var(--secondary-color);
 }
 
@@ -116,13 +122,13 @@ nav ul li {
 }
 
 .burger-menu {
-color: var(--primary-color);
-font-size: 2rem;
-border: 0;
-background-color: var(--secondary-color);
-cursor: pointer;
-border-radius: 10px;
-display: none;
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    border-radius: 10px;
+    display: none;
 }
 
 .hero {
@@ -131,7 +137,7 @@ display: none;
     justify-content: center;
     gap: 2.5rem;
     max-width: 68.75rem;
-    margin:auto;
+    margin: auto;
 }
 
 .hero img {
@@ -159,7 +165,7 @@ display: none;
 
 .more-about {
     background-color: var(--primary-color);
-padding: 1rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .more-about h2 {
@@ -190,4 +196,12 @@ padding: 1rem 6rem;
 .icon {
     width: 11.875rem;
     height: 11.25rem;
+}
+
+.icon-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+    padding: 1.25rem;
+    margin: 0.625rem;
 }
