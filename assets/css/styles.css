@@ -138,6 +138,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 68.75rem;
     margin: auto;
+    flex-wrap: wrap;
 }
 
 .hero img {
@@ -204,4 +205,69 @@ nav ul li {
     box-shadow: 0 3px 10px var(--secondary-shadow);
     padding: 1.25rem;
     margin: 0.625rem;
+}
+
+.projects {
+    padding: 32px 0;
+    margin-top: 2rem;
+
+}
+
+.projects-title, .hobbies-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width: 28rem;
+    padding: 1rem;
+    justify-self: center;
+}
+
+.project-container h3 {
+    color: var(--primary-color);
+}
+
+.project-container p {
+    padding: 0.4rem;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.project-title {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+    margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--primary-shadow);
+    padding: 20px;
+    margin: 10px;
+}
+
+.project-card a {
+    color: #0000FF;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+.project-pic {
+    width: 25rem;
+    height: 18.75rem;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
 }
