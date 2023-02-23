@@ -213,7 +213,8 @@ nav ul li {
 
 }
 
-.projects-title, .hobbies-title {
+.projects-title,
+.hobbies-title {
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -270,4 +271,71 @@ nav ul li {
     align-items: center;
     justify-content: center;
     color: var(--primary-color);
+}
+
+.contact {
+    margin-top: 2rem;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: var(--bottom-margin-2);
+}
+
+.contact-form-container {
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+
+.contact-form-container label {
+    line-height: 2.7em;
+    font-weight: var(--bold-font);
+    color: var(--secondary-color);
+}
+
+.contact-form-container textarea {
+    min-height: 6.25rem;
+    font-size: 0.875rem;
+}
+
+.contact-form-container .input-field {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset var(--secondary-shadow);
+    font-size: 0.875rem;
+    outline: none;
+}
+
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: var(--primary-color);
+}
+
+.submit-btn {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--primary-color);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    box-shadow: 0 4px 16px 0 var(--primary-shadow);
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: var(--primary-shadow);
+    color: #1D1B1B;
+    cursor: pointer;
+}
+
+.submit-btn:active {
+    transform: translateY(5px);
 }
