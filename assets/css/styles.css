@@ -368,3 +368,14 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3.5rem;
+    height: 3.5rem;
+}
