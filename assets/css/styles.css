@@ -339,3 +339,16 @@ nav ul li {
 .submit-btn:active {
     transform: translateY(5px);
 }
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
