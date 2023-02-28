@@ -385,6 +385,11 @@ footer a:hover {
         padding: 1.5rem 1rem;
     }
 
+    nav h1 {
+        font-size: 1.4rem;
+    }
+
+
     nav ul {
         position: fixed;
         background-color: var(--bg-nav-color);
