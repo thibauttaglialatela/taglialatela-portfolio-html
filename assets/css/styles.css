@@ -352,3 +352,18 @@ nav ul li {
     width: 2.5rem;
     height: 2.5rem;
 }
+
+footer {
+    background-color: var(--bg-nav-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+footer p, footer a {
+    color: var(--primary-color);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
