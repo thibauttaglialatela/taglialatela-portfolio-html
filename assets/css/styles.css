@@ -156,6 +156,7 @@ nav ul li {
 .bio h2 {
     color: var(--secondary-color);
     margin-bottom: var(--bottom-margin);
+    text-align: center;
 }
 
 .bio p {
@@ -378,4 +379,76 @@ footer a:hover {
 .up-arrow {
     width: 3.5rem;
     height: 3.5rem;
+}
+
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+
+    nav h1 {
+        font-size: 1.4rem;
+    }
+
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-nav-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+        border-radius: 20px;
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    .hero {
+        margin-top: 1.5rem;
+    }
+
+    .hero img {
+        height: 25rem;
+        width: 25rem;
+    }
+
+    .more-about {
+    margin-top: 2rem;
+    padding: 1rem 0.5rem;
+    }
+
+    .icon {
+        width: 5.875rem;
+        height: 5.95rem;
+    }
+
+    .contact-form-container {
+        max-width: 14.75rem;
+    }
+
+}
+
+@media  screen and (min-width:721px) and (max-width:1439px) {
+    nav h1 {
+        font-size: larger;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    justify-content: center;
+    }
 }
