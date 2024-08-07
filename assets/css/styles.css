@@ -139,11 +139,13 @@ nav ul li {
     max-width: 68.75rem;
     margin: auto;
     flex-wrap: wrap;
+    margin-top: 1.5rem
 }
 
 .hero img {
     height: auto;
     width: 40rem;
+    border-radius: 11px;
 }
 
 .bio {
