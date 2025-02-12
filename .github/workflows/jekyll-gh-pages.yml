@@ -36,6 +36,8 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-artifact@v4
+        with:
+          path: https://github.com/thibauttaglialatela/taglialatela-portfolio-html
 
   # Deployment job
   deploy:
