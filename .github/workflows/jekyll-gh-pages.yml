@@ -53,9 +53,10 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: github-pages
+          path: _site  # ✅ Télécharger directement dans _site/
 
       - name: Vérification de l'artifact téléchargé
-        run: ls -la
+        run: ls -la _site  # ✅ Vérifier que les fichiers sont bien là
 
       - name: Deploy to GitHub Pages
         id: deployment
