@@ -26,3 +26,7 @@ navLinkArray.forEach(element => {
     ul.classList.remove("show");
     })
 });
+
+//get current year
+let currentYear = new Date().getFullYear();
+document.querySelector('#currentYear').textContent = currentYear;
