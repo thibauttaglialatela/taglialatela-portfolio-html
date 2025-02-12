@@ -39,6 +39,9 @@ jobs:
           name: github-pages
           path: _site/
 
+      - name: Vérification de l'upload d'artifact
+        run: echo "Artifact github-pages a été uploadé"
+
   deploy:
     environment:
       name: github-pages
